@@ -1,0 +1,1 @@
+cmd_/usr/src/project2-part1-abiniaz1/tictactoe/tictactoe.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /usr/src/project2-part1-abiniaz1/tictactoe/tictactoe.ko /usr/src/project2-part1-abiniaz1/tictactoe/tictactoe.o /usr/src/project2-part1-abiniaz1/tictactoe/tictactoe.mod.o;  true
